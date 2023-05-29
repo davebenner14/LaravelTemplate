@@ -37,23 +37,29 @@ To run this project on your local machine, follow these steps:
 git clone https://github.com/davebenner14/LaravelTemplate.git
 ```
 
-Replace `<repository-url>` with the URL of your GitHub repository.
+1. Navigate into the project directory:
 
-2. Navigate into the project directory:
-
+```
 cd LaravelTemplate
+```
 
 3. Install PHP dependencies:
 
+```
 composer install
+```
 
-4. Install JavaScript dependencies:
+1. Install JavaScript dependencies:
 
+```
 npm install
+```
 
-5. Build frontend assets:
+1. Build frontend assets:
 
+```
 npm run dev
+```
 
 6. Set up the environment variables:
 
@@ -68,17 +74,17 @@ npm run dev
 
 7. Run database migrations:
 
+```
 php artisan migrate
+```
 
 8. Start the development server:
 
+```
 php artisan serve
+```
 
 The application should now be accessible at `http://localhost:8000`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
