@@ -33,7 +33,9 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository:
 
-git clone <repository-url>
+```
+git clone https://github.com/davebenner14/LaravelTemplate.git
+```
 
 Replace `<repository-url>` with the URL of your GitHub repository.
 
